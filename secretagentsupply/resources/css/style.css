@@ -1,0 +1,134 @@
+body {
+  font-family: Helvetica;
+}
+
+.header {
+  border-bottom: 1px solid black;
+  display: flex;
+  background-color: black;
+  color: white;
+  width: 100%;
+}
+
+.header .logo {
+  font-size: 18px;
+  padding-right: 1rem;
+  height: 1.5rem;
+}
+
+.header p {
+  font-size: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+.banner {
+  height: 25rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+  padding-top: 9rem;
+}
+
+.arrival {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  width: 25rem;
+  margin-left: 120px;
+}
+
+.new {
+  padding-top: 2rem;
+  padding-left: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.bikes {
+  padding-top: 0.25;
+  padding-left: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.navigation {
+  border: 1px solid black;
+  background-color: firebrick;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75;
+  align-items: center;
+}
+
+.navigation span {
+  font-family: Helvetica;
+}
+
+.navigation a {
+  color: white;
+}
+
+.products {
+display: flex;
+justify-content: space-around;
+}
+
+.pen {
+  border: 4px solid black;
+  margin-top: 3rem;
+  width: 25%;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.pen img {
+  height: 9rem;
+}
+
+.pen p {
+  color: white;
+  background-color: black;
+  height: 2rem;
+}
+
+.watch {
+  border: 4px solid black;
+  margin-top: 3rem;
+  width: 25%;
+  text-align: center;
+}
+
+.watch img {
+  height: 9rem;
+}
+
+.watch p {
+  color: white;
+  background-color: black;
+  height: 2rem;
+}
+
+.glasses {
+  border: 4px solid black;
+  margin-top: 3rem;
+  width: 25%;
+  text-align: center;
+}
+
+.glasses img {
+  height: 9rem;
+}
+
+.glasses p {
+  color: white;
+  background-color: black;
+  height: 2rem;
+}
+
+.footer {
+  height: 5rem;
+  background-color: black;
+  color: white;
+  font-family: Helvetica;
+  text-align: center;
+}
